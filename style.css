@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#main-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+
+}
+
+#color-header {
+    width: 50%;
+    height: 100px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+#background-color-txt {
+    line-height: 90px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#color-button {
+    width: 150px;
+    height: 40px;
+    background-color: lightgreen;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 25px;
+    transition: 0.5s;
+}
+#color-button:hover {
+    cursor: pointer;
+    background-color: darkgreen;
+    color: white;
+}
